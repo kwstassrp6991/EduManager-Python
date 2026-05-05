@@ -24,7 +24,7 @@ A command-line **CRUD application** built in Python for managing an educational 
 13 - Delete lesson
 14 - Exit
 ```
-![Main Menu](Στιγμιότυπο οθόνης 2026-05-05, 5.18.21 μμ)
+![Main Menu](Στιγμιότυπο οθόνης 2026-05-05, 5.18.21 μμ.png)
 
 ---
 
