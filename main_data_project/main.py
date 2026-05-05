@@ -55,28 +55,19 @@ def main():
 
 
         elif x == 3:
-            id_or_surname = input("if you want to search by surname press 0 "
-                                  "if you want to search by id press 1 "
-                                  "if you want update type 2 ")
-            if id_or_surname == "0":
-                print(pupils.search_pupil_by_surname(input("search pupil by surname! type surname: ")))
+            print()
+            for pupil in pupils:
+                print(pupil)
+                print("-" * 30)
+            print()
+            print("(KEY) type surname or father's_name or age or class and ENTER !")
+            pupils.update(input("enter the name of the player who want to change:  "),
+                input("enter what you want to change "),
+                input("type the new value :"))
 
-            elif id_or_surname == "1":
-                pupils.search_pupil_by_id(input("search pupil by id! type id: "))
-
-            elif id_or_surname == "2":
-                for pupil in pupils:
-                    print(pupil)
-                    print("-" * 30)
-                print()
-                print("(KEY) type surname or father's_name or age or class and ENTER !")
-                pupils.update(input("enter the name of the player who want to change:  "),
-                       input("enter what you want to change "),
-                       input("type the new value :"))
-
-                for pupil in pupils:
-                    print(pupil)
-                    print("-" * 30)
+            for pupil in pupils:
+                print(pupil)
+                print("-" * 30)
 
         elif x == 4:
             search_method = input("enter the method you want to search by surname or id: ")
@@ -86,7 +77,7 @@ def main():
 
 
             elif search_method == "id":
-                pupils.delete_pupil(int(input("enter the id of the pupil to delete: ")))
+                pupils.delete_pupil(int(input(f"enter the id of the pupil to delete valid ids({[ids.pupil_id for ids in pupils]}): ")))
 
         elif x == 5:
             teachers.create_teacher(input("Name : "), input("Surname : "))
@@ -94,8 +85,9 @@ def main():
 
 
         elif x == 6:
-            teacher_id = int(input("enter the id of the teacher to print  : "))
+            teacher_id = int(input(f"enter the id of the teacher to print : "))
             t = teachers.read_teacher(teacher_id)
+            print()
             if t is None:
                 print("not exist")
             else :
@@ -114,8 +106,16 @@ def main():
             teachers.delete_teacher(teacher_id)
 
         elif x == 9:
+            stop = False
             lesson_name = input("enter the name of the lesson to create:")
-            lessons.create_lesson(lesson_name)
+            for i in lessons:
+                if i.name == lesson_name:
+                    print("the lesson's name is already exist")
+                    stop = True
+            if not stop:
+                lessons.create_lesson(lesson_name)
+
+
 
         elif x == 10:
 

@@ -40,7 +40,8 @@ class Teachers:
         for teacher in self.teachers:
             if teacher_id == teacher.teacher_id:
                 return teacher
-        return None
+        else:
+            return None
 
     def next_id(self):
         if not self.teachers:

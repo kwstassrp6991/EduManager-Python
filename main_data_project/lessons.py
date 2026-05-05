@@ -1,6 +1,5 @@
 from lesson import Lesson
 from pupils import Pupils
-from pupil import  Pupil
 pupils = Pupils().pupils
 import json
 
@@ -16,8 +15,7 @@ class Lessons:
                 self.lessons.append(c)
 
 
-        except Exception as e:
-            print(e)
+        except FileNotFoundError:
             self.lessons = []
 
     def __str__(self):
@@ -28,7 +26,8 @@ class Lessons:
 
         return st
 
-
+    def __getitem__(self, key):
+        return self.lessons[key]
 
     def create_lesson(self,lesson_name):
         self.lessons.append(Lesson(lesson_name))

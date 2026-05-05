@@ -67,7 +67,7 @@ class Pupils:
 
             self.pupils.append(bot)
         else:
-            print(f"invalid input set strings not digits ! 😡")
+            print(f"invalid input, set strings not digits ! 😡")
 
 
     def search_pupil_by_id(self,id_number):
@@ -136,7 +136,7 @@ class Pupils:
                   "if you want to see the  pupils(Analytical), enter 2\n"
                   "if you want to see only the names, enter 3\n "))
         if z == 1:
-            x = input("Give the id of the pupil: ")
+            x = input(f"Give the id of the pupil (ids{[i.pupil_id for i in self.pupils]}) : ")
             x.isdigit()
             x = int(x)
             for pupil in self.pupils:
