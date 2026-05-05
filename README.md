@@ -32,11 +32,6 @@ A command-line **CRUD application** built in Python for managing an educational 
 |--------------------------------------------------------------------------------------------------------------------------|
 ![B.]<img width="1512" height="982" alt="Στιγμιότυπο οθόνης 2026-05-05, 5 19 31 μμ" src="https://github.com/user-attachments/assets/cc78eb66-bf02-49f6-8744-6cc1e1afc28b" />
 
-|--------------------------------------------------------------------------------------------------------------------------|
-![C.]<img width="1512" height="982" alt="Στιγμιότυπο οθόνης 2026-05-05, 5 18 49 μμ" src="https://github.com/user-attachments/assets/92231610-0f4e-43d1-a3b3-e11f2bcdf5ac" />
-
-
-
 
 
 
