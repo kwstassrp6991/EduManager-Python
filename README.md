@@ -27,9 +27,13 @@ A command-line **CRUD application** built in Python for managing an educational 
 ![Main Menu]<img width="1512" height="982" alt="Στιγμιότυπο οθόνης 2026-05-05, 5 18 21 μμ" src="https://github.com/user-attachments/assets/1c8f2ae7-ab7f-413e-8213-65415279ce6d" />
 
 ![A.]|--------------------------------------------------------------------------------------------------------------------------|
-<img width="1512" height="982" alt="Στιγμιότυπο οθόνης 2026-05-05, 5 19 31 μμ" src="https://github.com/user-attachments/assets/cc78eb66-bf02-49f6-8744-6cc1e1afc28b" />
+<img width="1512" height="982" alt="Στιγμιότυπο οθόνης 2026-05-05, 5 18 49 μμ" src="https://github.com/user-attachments/assets/7d394e5e-58fd-49af-8e8d-e6923e50e5e6" />
+
 
 ![B.]|--------------------------------------------------------------------------------------------------------------------------|
+<img width="1512" height="982" alt="Στιγμιότυπο οθόνης 2026-05-05, 5 19 31 μμ" src="https://github.com/user-attachments/assets/cc78eb66-bf02-49f6-8744-6cc1e1afc28b" />
+
+![C.]|--------------------------------------------------------------------------------------------------------------------------|
 <img width="1512" height="982" alt="Στιγμιότυπο οθόνης 2026-05-05, 5 19 49 μμ" src="https://github.com/user-attachments/assets/76522891-3b70-48c4-bd28-f4489f665789" />
 
 
