@@ -1,4 +1,4 @@
-<img width="1512" height="982" alt="Στιγμιότυπο οθόνης 2026-05-05, 5 19 31 μμ" src="https://github.com/user-attachments/assets/a99970ec-8a2f-4917-93fe-4d2a12deae7a" /># 🎓 Student, Teacher & Lesson Management System
+# 🎓 Student, Teacher & Lesson Management System
 
 A command-line **CRUD application** built in Python for managing an educational organization. This was my first complete Python project, focusing on Object-Oriented Programming and data persistence.
 
@@ -31,6 +31,8 @@ A command-line **CRUD application** built in Python for managing an educational 
 
 |--------------------------------------------------------------------------------------------------------------------------|
 ![B.]<img width="1512" height="982" alt="Στιγμιότυπο οθόνης 2026-05-05, 5 19 31 μμ" src="https://github.com/user-attachments/assets/cc78eb66-bf02-49f6-8744-6cc1e1afc28b" />
+
+![C.]<img width="1512" height="982" alt="Στιγμιότυπο οθόνης 2026-05-05, 5 19 31 μμ" src="https://github.com/user-attachments/assets/a99970ec-8a2f-4917-93fe-4d2a12deae7a" />
 
 
 
